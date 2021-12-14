@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/episodes_items_list.xml" value="0.1" />
-        <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragmet_main.xml" value="0.25" />
+        <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragment_player.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragmet_main.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -14,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
