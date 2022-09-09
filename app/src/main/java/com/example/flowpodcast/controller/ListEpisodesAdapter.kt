@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.example.flowpodcast.EXTRA_MESSAGE
 import com.example.flowpodcast.PlayerActivity
 import com.example.flowpodcast.databinding.EpisodesItemsListBinding
 import com.squareup.picasso.Picasso
@@ -24,6 +25,13 @@ class ListEpisodesAdapter(
             binding.titleEpisode.text = response.snippet.title
             Picasso.get().load(response.snippet.thumbnails.high.url).into(binding.imageEpisode)
 
+            binding.root.setOnClickListener { v ->
+//                i.data = Uri.parse(response.id.videoId
+//               )
+                val intent = Intent(binding.root.context, PlayerActivity::class.java)
+                intent.putExtra(EXTRA_MESSAGE, response.id.videoId)
+                binding.root.context.startActivity(intent)
+            }
         }
     }
 
@@ -36,17 +44,6 @@ class ListEpisodesAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val response = itemsList[position]
         holder.bind(response)
-        val source =itemsList[position].id
-        holder.itemView.setOnClickListener { v ->
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(itemsList[position].id.videoId)
-            v.context.startActivity(i)
-        }
-            if (source != null) {
-                holder.itemView
-
-            }
-
     }
 
     override fun getItemCount(): Int {
