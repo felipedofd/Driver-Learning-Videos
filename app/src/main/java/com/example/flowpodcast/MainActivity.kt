@@ -1,14 +1,8 @@
 package com.example.flowpodcast
 
-import Default
-import High
-import Items
-import Medium
-import com.example.flowpodcast.jsonresponse.Snippet
-import Thumbnails
+
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.flowpodcast.controller.ListEpisodesAdapter
 import com.example.flowpodcast.databinding.ActivityMainBinding
@@ -34,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("bla", false)
             startActivity(intent)
         }
+
+        binding.flowPage.setOnClickListener {
+
+        }
+
+
         mViewModel.BuscarVideos()
         mViewModel.episodes.observe(this) {
             binding.episodesList.adapter = ListEpisodesAdapter(
