@@ -18,6 +18,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlowPodCast">
+
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.APP_BROWSER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".PlayerActivity" />
         <activity
             android:name=".MainActivity"
