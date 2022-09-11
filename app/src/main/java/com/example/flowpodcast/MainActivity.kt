@@ -30,7 +30,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.flowPage.setOnClickListener {
-
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra("webiew", false)
+            startActivity(intent)
         }
 
 
