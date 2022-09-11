@@ -5,6 +5,15 @@
       <map>
         <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/drawable/ic_menu.xml" value="0.2985" />
         <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/activity_player.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/activity_web_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/content_splash_screen.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/episodes_items_list.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/fragment_first.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/fragment_second.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/felip/OneDrive/Documentos/GitHub/FlowPodCastApp/app/src/main/res/layout/fragment_web_view.xml" value="0.358695652173913" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/episodes_items_list.xml" value="0.1" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragment_player.xml" value="0.20416666666666666" />
