@@ -1,10 +1,10 @@
-package com.example.flowpodcast
+package com.example.flowpodcast.player
 
-import Id
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import com.example.flowpodcast.EXTRA_MESSAGE
 import com.example.flowpodcast.databinding.ActivityPlayerBinding
 import com.google.android.youtube.player.*
 

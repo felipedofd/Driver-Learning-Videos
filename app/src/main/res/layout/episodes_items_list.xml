@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/background_app_color"
-    android:paddingVertical="12dp">
+    >
 
     <ImageView
         android:id="@+id/image_episode"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/item_list_flow_app" />
@@ -30,10 +32,20 @@
         android:id="@+id/description_episode"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="#CAC9C9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/title_episode"
         app:layout_constraintTop_toBottomOf="@id/title_episode"
         tools:text="Ciro Gomes foi deputado, prefeito, governador, ministro e presidenciável. Twitter e Instagram: @cirogomes Youtube e Facebook: ..."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

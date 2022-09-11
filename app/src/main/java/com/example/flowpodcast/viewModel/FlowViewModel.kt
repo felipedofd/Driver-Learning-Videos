@@ -1,6 +1,6 @@
-package com.example.flowpodcast.view
+package com.example.flowpodcast.viewModel
 
-import JsonBaseResponse
+import com.example.flowpodcast.data.JsonBaseResponse
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

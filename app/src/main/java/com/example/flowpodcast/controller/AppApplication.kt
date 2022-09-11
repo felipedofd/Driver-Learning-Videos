@@ -1,8 +1,7 @@
-package com.example.flowpodcast
+package com.example.flowpodcast.controller
 
 import android.app.Application
-import android.content.Context
-import com.example.flowpodcast.di.viewModelModule
+import com.example.flowpodcast.module.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

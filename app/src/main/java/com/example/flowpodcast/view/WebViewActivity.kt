@@ -1,4 +1,4 @@
-package com.example.flowpodcast
+package com.example.flowpodcast.view
 
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity

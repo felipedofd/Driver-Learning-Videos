@@ -1,6 +1,6 @@
-package com.example.flowpodcast.di
+package com.example.flowpodcast.module
 
-import com.example.flowpodcast.view.FlowViewModel
+import com.example.flowpodcast.viewModel.FlowViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 
 import org.koin.dsl.module

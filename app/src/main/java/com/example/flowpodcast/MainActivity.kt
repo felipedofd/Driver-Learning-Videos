@@ -6,7 +6,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.flowpodcast.controller.ListEpisodesAdapter
 import com.example.flowpodcast.databinding.ActivityMainBinding
-import com.example.flowpodcast.view.FlowViewModel
+import com.example.flowpodcast.player.PlayerActivity
+import com.example.flowpodcast.viewModel.FlowViewModel
+import com.example.flowpodcast.view.WebViewActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 const val EXTRA_MESSAGE = "bla"

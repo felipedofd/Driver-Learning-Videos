@@ -1,4 +1,4 @@
-import com.example.flowpodcast.jsonresponse.Snippet
+package com.example.flowpodcast.data
 
 data class Items(
 

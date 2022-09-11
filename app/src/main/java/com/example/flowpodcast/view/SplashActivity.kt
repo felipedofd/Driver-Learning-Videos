@@ -1,9 +1,10 @@
-package com.example.flowpodcast
+package com.example.flowpodcast.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.flowpodcast.MainActivity
 import com.example.flowpodcast.databinding.ActivitySplashBinding
 
 private lateinit var binding: ActivitySplashBinding

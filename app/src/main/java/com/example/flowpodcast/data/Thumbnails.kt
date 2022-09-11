@@ -1,3 +1,5 @@
+package com.example.flowpodcast.data
+
 data class Thumbnails(
 
     val default: Default,

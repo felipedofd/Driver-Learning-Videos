@@ -1,7 +1,6 @@
 package com.example.flowpodcast.remote
 
-import Items
-import JsonBaseResponse
+import com.example.flowpodcast.data.JsonBaseResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
