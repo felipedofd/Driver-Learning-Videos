@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.example.flowpodcast.databinding.ActivityMyLinkedinPageBinding
-import com.example.flowpodcast.databinding.ActivityWebViewBinding
 
 class MyLinkedinPageActivity : AppCompatActivity() {
 
