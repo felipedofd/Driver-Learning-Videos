@@ -15,12 +15,12 @@
         android:importantForAccessibility="no"
         android:padding="10dp"
         android:src="@drawable/linkedin_logo"
-        app:layout_constraintBottom_toBottomOf="@id/flow_page"
+        app:layout_constraintBottom_toBottomOf="@id/web_view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/flow_page" />
+        app:layout_constraintTop_toTopOf="@id/web_view" />
 
     <FrameLayout
-        android:id="@+id/flow_page"
+        android:id="@+id/web_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="1dp"
@@ -39,7 +39,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:importantForAccessibility="no"
-                android:src="@drawable/ic_shop_flow"
+                android:src="@drawable/ic_webview"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:elevation="1dp"
-                android:text="@string/flow_shop_text"
+                android:text="@string/webview_text"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@id/menu"
@@ -62,26 +62,35 @@
     </FrameLayout>
 
     <ImageView
-        android:id="@+id/logo_flow"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/logo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:layout_marginTop="28dp"
         android:importantForAccessibility="no"
-        android:src="@drawable/logo_flow_podcast"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fiap_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fiap_logo"
+        app:layout_constraintTop_toTopOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:importantForAccessibility="no"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/episodes_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginVertical="30dp"
         android:background="@color/background_app_color"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo_flow"
+        app:layout_constraintTop_toBottomOf="@id/logo"
         tools:listitem="@layout/episodes_items_list" />
 
 

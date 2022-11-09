@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flowpodcast">
+    package="com.example.driverlearningvideos">
 
     <queries>
         <intent>
@@ -11,19 +11,19 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".controller.AppApplication"
+        android:name="com.example.driverlearningvideos.controller.AppApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FlowPodCast">
+        android:theme="@style/Theme.DriverLearningVideos">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.driverlearningvideos.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name=".view.WebViewActivity"
+            android:name="com.example.driverlearningvideos.view.WebViewActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
@@ -34,7 +34,7 @@
         </activity>
 
         <activity
-            android:name=".view.MyLinkedinPageActivity"
+            android:name="com.example.driverlearningvideos.view.MyLinkedinPageActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
@@ -45,10 +45,10 @@
         </activity>
 
         <activity
-            android:name=".player.PlayerActivity"
+            android:name="com.example.driverlearningvideos.player.PlayerActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".view.SplashActivity"
+            android:name="com.example.driverlearningvideos.view.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>

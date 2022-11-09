@@ -21,6 +21,16 @@
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/episodes_items_list.xml" value="0.1" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragment_player.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/felipe/AndroidStudioProjects/FlowPodCast/app/src/main/res/layout/fragmet_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/ic_shop_flow.xml" value="0.1055" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3149008020261714" />
+        <entry key="app/src/main/res/layout/activity_my_linkedin_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/episodes_items_list.xml" value="0.16673792218896966" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.193" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.193" />
       </map>
     </option>
   </component>
